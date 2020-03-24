@@ -13,7 +13,7 @@ jobs:
         node-version: '12.x'
         registry-url: 'https://npm.pkg.github.com'
     - run: |
-        npm install
+        npm ci
         npm run build
         npm publish
       working-directory: ./npm
